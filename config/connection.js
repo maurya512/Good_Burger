@@ -1,14 +1,21 @@
 // the file that will be used to establish a connection with the mysql database
 var mysql = require("mysql");
+require('dotenv').config();
+var connection;
 
 // establish a connection with the database
-var connection = mysql.createConnection({
+if (process.env.JAWSDB_URL){
+    connection = mysql.createConnection(process.env.JAWSDB_URL);
+}
+else {
+connection = mysql.createConnection({
     host: "localhost",
     port: 3306,
     user: "root",
     password: "enph739ektA!",
     database: "burger_db"
 });
+}
 
 // make a connection
 connection.connect(function(err) {
