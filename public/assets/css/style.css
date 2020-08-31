@@ -1,19 +1,10 @@
-li {
-  padding: 5px;
-  margin: 5px;
-  background: #faebd7;
+body{
+  color: rgb(8, 32, 19);
+  text-align: center;
+  background-color: rgb(243, 230, 158);
 }
 
-.label {
-  font-weight: bold;
+button{
+  color: chocolate;
 }
 
-.create-update-form {
-  padding: 5px;
-  margin: 5px;
-  background: aqua;
-}
-
-.form-group {
-  margin-bottom: 5px;
-}
