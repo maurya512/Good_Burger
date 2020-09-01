@@ -31,6 +31,8 @@ $(function() {
     };
 
     // Send the POST request.
+    if(newBurger.length !== 0){
+
     $.ajax("/api/burgers", {
       type: "POST",
       data: newBurger
@@ -41,6 +43,9 @@ $(function() {
         location.reload();
       }
     );
+    } else {
+      alert("Please enter a burger type!");
+    }
   });
 
   $(".delete-burger").on("click", function(event) {
