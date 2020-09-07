@@ -7,6 +7,7 @@
 - [Project Contributors](#Contributors)
 - [Github Repo](#Repo)
 - [Heroku App](#Heroku)
+- [Link](#Demo)
 - [Screenshot](#Screenshot)
 - [Project Question](#Questions)
 
@@ -39,9 +40,12 @@
 # Heroku App:
 - [App](https://mygoodburger.herokuapp.com/)
 
+# Demo:
+- [Link](https://drive.google.com/file/d/1rluWsmFI0Bz9RhUGf7hzIxq6wNbu-aCS/view)
+
 # Screenshot:
   Screenshot of the homepage.
-  ![alt text](./public/assets/img/burgernfries.png "Screenshot of burger and fries.")
+  ![alt text](./public/assets/img/bg1.png "Screenshot of burger and fries.")
 
 # Questions:
    Any questions regarding this project can be directed at:
